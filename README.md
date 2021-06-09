@@ -1,5 +1,13 @@
 # Machine Learning
 
+# Test without GPU
+
+If you want to test the content of this repository without using the GPU add the following line to the python script:
+
+```python
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+```
+
 ## Tensorflow Metal on MacOS
 
 To use Tensorflow Metal on Mac M1 Chip:
