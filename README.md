@@ -5,6 +5,7 @@
 If you want to test the content of this repository without using the GPU add the following line to the python script:
 
 ```python
+import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 ```
 
