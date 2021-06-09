@@ -1,6 +1,6 @@
 # Machine Learning
 
-# Test without GPU
+## Test without GPU
 
 If you want to test the content of this repository without using the GPU add the following line to the python script:
 
